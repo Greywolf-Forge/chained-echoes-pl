@@ -98,6 +98,8 @@ Użyj zakładki **Issues** i podaj:
 
 Nie dołączaj plików gry, save'ów ani całych logów zawierających dane konta.
 
+Pytania i dyskusje: [Discord Greywolf Forge](https://discord.gg/TYcdct6fTn).
+
 ## Dla maintainerów
 
 Źródła wspólnego instalatora i fabryki wydań są w [installer/](installer/).
