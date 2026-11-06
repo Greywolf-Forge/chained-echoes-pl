@@ -34,7 +34,7 @@ Generator:
 Dodanie poniższych parametrów publikuje oba ZIP-y jako GitHub prerelease:
 
 ```bash
-  --publish --repo zazpany/chained-echoes-pl
+  --publish --repo Greywolf-Forge/chained-echoes-pl
 ```
 
 Publisher ponownie sprawdza clean `main`, wymaga `HEAD == origin/main ==` SHA
@@ -66,7 +66,7 @@ zmiany taga lub podmiany assets:
 
 ```bash
 gh release edit vVERSION \
-  --repo zazpany/chained-echoes-pl \
+  --repo Greywolf-Forge/chained-echoes-pl \
   --prerelease=false
 ```
 

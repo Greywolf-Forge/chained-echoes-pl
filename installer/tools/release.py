@@ -64,7 +64,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--runtime-manifest", type=Path, required=True)
     parser.add_argument("--no-determinism-check", action="store_true")
     parser.add_argument("--publish", action="store_true")
-    parser.add_argument("--repo", default="zazpany/chained-echoes-pl")
+    parser.add_argument("--repo", default="Greywolf-Forge/chained-echoes-pl")
     return parser.parse_args()
 
 

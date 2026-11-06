@@ -242,7 +242,7 @@ class ReleaseFactoryTests(unittest.TestCase):
                 }
             }
         }
-        args = SimpleNamespace(version="0.8.0", repo="zazpany/chained-echoes-pl")
+        args = SimpleNamespace(version="0.8.0", repo="Greywolf-Forge/chained-echoes-pl")
         commands: list[list[str]] = []
 
         def fake_run(command: list[str], **kwargs: object) -> str:
@@ -256,7 +256,7 @@ class ReleaseFactoryTests(unittest.TestCase):
             if command[:3] == ["git", "rev-parse", "refs/remotes/origin/main"]:
                 return source_sha
             if command[:3] == ["git", "remote", "get-url"]:
-                return "https://github.com/zazpany/chained-echoes-pl.git"
+                return "https://github.com/Greywolf-Forge/chained-echoes-pl.git"
             return ""
 
         with tempfile.TemporaryDirectory() as temporary:

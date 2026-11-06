@@ -110,7 +110,7 @@ generuje manifest i evidence,
 uruchamia self-testy, buduje oba self-contained instalatory, tworzy
 deterministyczne ZIP-y i sprawdza drugi byte-identical rebuild.
 
-Dodanie `--publish --repo zazpany/chained-echoes-pl` publikuje oba ZIP-y i sumy
+Dodanie `--publish --repo Greywolf-Forge/chained-echoes-pl` publikuje oba ZIP-y i sumy
 SHA-256 jako GitHub prerelease, ale dopiero po potwierdzeniu, że tag, `HEAD` i
 `origin/main` wskazują exact public source SHA zapisane w manifeście. Publikacja
 nadal wymaga ręcznego smoke testu na Windows, Kubuntu i w grze. Istniejący

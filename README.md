@@ -1,10 +1,11 @@
 # Chained Echoes PL
 
-Fanowskie polskie tłumaczenie gry **Chained Echoes**.
+Fanowskie polskie tłumaczenie gry **Chained Echoes**, rozwijane w ramach
+[Greywolf Forge](https://github.com/Greywolf-Forge).
 
 Repozytorium służy do publikowania kolejnych wersji kompletnego patcha oraz
-instrukcji instalacji. Gotowe archiwa ZIP będą dostępne wyłącznie w zakładce
-**[Releases](https://github.com/zazpany/chained-echoes-pl/releases)** — nie
+instrukcji instalacji. Gotowe archiwa ZIP są dostępne wyłącznie w zakładce
+**[Releases](https://github.com/Greywolf-Forge/chained-echoes-pl/releases)** — nie
 trzeba pobierać kodu repozytorium.
 
 > Projekt nie jest powiązany z Umami Tiger ani Deck13. Do użycia patcha
@@ -12,11 +13,11 @@ trzeba pobierać kodu repozytorium.
 
 ## Status
 
-Aktualnym wydaniem jest **[v0.8.3](https://github.com/zazpany/chained-echoes-pl/releases/tag/v0.8.3)**.
-Instalatory Windows i Linux oraz ich rollback przeszły testy, dlatego wydanie
-ma status techniczny **stable**.
+Aktualnym wydaniem jest **[v0.9.1](https://github.com/Greywolf-Forge/chained-echoes-pl/releases/tag/v0.9.1)**
+dla Windows x64 i Kubuntu/Linux x64. Instalator wymaga czystego Steam build
+`21147362`; obsługiwany build zawsze podają notatki wydania.
 
-Wersja 0.8.3 zawiera **pełne polskie tłumaczenie** aktualnego zakresu EF-001:
+Wydanie zawiera **pełne polskie tłumaczenie** aktualnego zakresu EF-001:
 dialogi oraz objęte wydaniem teksty interfejsu, menu, przedmiotów i umiejętności.
 Jest to jednak wydanie **przed całościowym QA językowym i redakcją**. W tekście
 mogą nadal występować literówki, niezręczne sformułowania albo niespójności,
@@ -102,8 +103,8 @@ Nie dołączaj plików gry, save'ów ani całych logów zawierających dane kont
 Źródła wspólnego instalatora i fabryki wydań są w [installer/](installer/).
 To repozytorium jest kanonicznym źródłem wyłącznie instalatora Windows/Linux,
 publicznych notatek i publikacji GitHub. Tłumaczenia, acceptance stores,
-build artefaktów runtime i clean-source identities należą do canonical
-`EchoForge/main`; nie są duplikowane tutaj.
+build artefaktów runtime i clean-source identities są utrzymywane w
+prywatnym repozytorium roboczym EchoForge (`main`); nie są duplikowane tutaj.
 Procedura publikowania kolejnych ZIP-ów znajduje się w
 [docs/RELEASING.md](docs/RELEASING.md). Binariów, payloadów i manifestów
 roboczych nie commitujemy — trafiają wyłącznie do assets GitHub Releases.
